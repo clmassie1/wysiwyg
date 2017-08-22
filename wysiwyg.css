@@ -1,0 +1,21 @@
+img {
+    flex: display-flex;
+    max-width: 10%;
+    max-height: 8%;
+  
+}
+
+.eachCard:nth-of-type(even) {
+    background: lightblue;
+  
+   
+}
+
+.eachCard:nth-of-type(odd) {
+    background: lightyellow;
+ 
+}
+
+.selectedCard {
+    border: dotted black;
+}
